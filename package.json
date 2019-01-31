@@ -3,16 +3,20 @@
   "version": "1.5.0",
   "description": "The_Onfido_API_is_used_to_submit_check_requests_",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onfido/api-javascript-client"
+  },
   "main": "src/index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive"
   },
   "dependencies": {
-    "superagent": "1.7.1"
+    "superagent": "^4.1.0"
   },
   "devDependencies": {
-    "mocha": "~2.3.4",
-    "sinon": "1.17.3",
-    "expect.js": "~0.3.1"
+    "expect.js": "~0.3.1",
+    "mocha": "^5.2.0",
+    "sinon": "1.17.3"
   }
 }
